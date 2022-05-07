@@ -97,14 +97,15 @@ body { overflow-x: hidden; }
 	color: white;
 }
 .tm-banner-title {
-	font-size: 74px;
+	font-size: 65px;
 	font-weight: 600;
+  line-height: 85px;
 }
 .tm-banner-subtitle { font-size: 34px; }
 .tm-yellow-text { color: #FCDD44; }
 .tm-banner-link {
-	background: rgba(252, 221, 68, 0.39) none repeat scroll 0% 0%;
-	border: 1px solid #D2B731;
+	background: rgba(120, 192, 2, 0.39) none repeat scroll 0% 0%;
+	border: 1px solid #78c002;
 	color: #FFF;
 	font-weight: 600;
 	display: inline-block;
@@ -114,7 +115,7 @@ body { overflow-x: hidden; }
 }
 .tm-banner-link:hover,
 .tm-banner-link:focus {
-	background: rgba(252, 221, 68, 1);
+	background: #78c002;
 	color: #000;
 }
 .flexslider.flexslider-banner {
@@ -126,7 +127,7 @@ body { overflow-x: hidden; }
 	text-align: center;
 }
 .flexslider.flexslider-banner .flex-direction-nav a:before {
-	color: #FCDD44;
+	color: #78c002;
 }
 .flex-direction-nav a {
 	height: 50px;
