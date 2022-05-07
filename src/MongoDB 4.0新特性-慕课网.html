@@ -7,168 +7,424 @@
   <link rel=" stylesheet" type=" text/css" href="./css/course_details.css">
 </head>
 
-<body>
+<body class="body_test">
 
   <div class="maogo_image" >
     <!--  黑框介绍处-->
-    <div class="part1">
+    <ul class="part1">
           <!--      黑框面包屑-->
           <div class="path">
-              <a href="https://www.imooc.com/">首页</a>
-                          <i class="icon-right2"></i>
-              <a href="https://www.imooc.com/course/list">免费课</a>
-                          <i class="icon-right2"></i>
-              <a class="last-mark" href="javascript:;">MongoDB 4.0新特性</a>
+              <span>首页</span>
+              <img src="img/arrow_right.png" style="width:10px;height:10px;opacity: 0.5;">
+              <span>免费课</span>
+              <img src="img/arrow_right.png" style="width:10px;height:10px;opacity: 0.5;">
+              <span>MongoDB 4.0新特性</span>
           </div>
 
           <h2 class="course_title">MongoDB 4.0新特性</h2>
 
           <!--          工程师-->
-          <div class="statics clearfix">
-                          <div class="teacher-info l">
-                            <!--                          工程师的头像-->
-              <img src="../src/img/teacher.png" width="80" height="80">
-              <span>Stannum</span>
-              <span>软件工程师</span>
-                  <span class="meta">难度</span><span class="meta-value">中级</span>
+          <div class="engineer">
+              <!-- 工程师的头像-->
+              <div class="teacher">
+                <img src="../src/img/teacher.png" style="width:50px;height:50px;border-radius:100%">
+                <span>Stannum</span>
+                <span>软件工程师</span>
               </div>
-              <div class="static-item l">
+
+              <div class="evaluation">
+                <div class="evaluation_item" style="display: inline-block">
+                  <span class="meta">难度</span><span class="meta-value"> 中级</span>
+                </div>
+                <div class="evaluation_item" style="display: inline-block">
                   <span class="meta">时长</span><span class="meta-value"> 1小时10分</span>
-              </div>
-              <div class="static-item l">
-                  <span class="meta">学习人数</span><span class="meta-value js-learn-num">10846</span>
-              </div>
+                </div>
+                <div class="evaluation_item" style="display: inline-block">
+                  <span class="meta">学习人数</span><span class="meta-value js-learn-num"> 10846</span>
+                </div>
 
-              <div class="static-item l score-btn">
-                  <span class="meta">综合评分</span><span class="meta-value">9.03</span>
+                <div class="evaluation_item" style="display: inline-block">
+                  <span class="meta">综合评分</span><span class="meta-value"> 9.03</span>
+                </div>
               </div>
-          <div class="extra">
+    </div>
+    </ul>
 
-              <!-- credit -->
+    <div class="part23">
+      <!--   课程简介     -->
+      <div class="part2"><strong>简介：</strong>本课程介绍了MongoDB 4.0推出的几大核心新特性，理论结合实例。
+        与课程关联实战课正式与慕粉们见面，希望得到大家的关注和喜爱。
+        1、玩转MongoDB4.0：
+        https://coding.imooc.com/class/324.html.
+        2、JavaIO三剑客之BIO/NIO/AIO：
+        https://coding.imooc.com/class/chapter/381.html#Anchor
 
-              <!-- share -->
-              <div class="share-action r bdsharebuttonbox bdshare-button-style0-16" data-bd-bind="1651826730392">
-              <!--收藏-->
-                  <div class="share js-follow-action" data-cid="1026" data-cmd="follow" title="收藏"><i class="follow-action icon-star_outline"></i><span>收藏</span></div>
-                  <a href="javascript:;" class="share wx js-share icon-share-weichat" data-cmd="weixin" title="分享到微信"></a>
-                  <a href="javascript:;" class="share qq js-share icon-share-qq" data-cmd="qzone" title="分享到QQ空间"></a>
-                  <a href="javascript:;" class="share sina js-share icon-share-weibo" data-cmd="tsina" title="分享到新浪微博"></a>
-              </div>
+        <strong>致CareerMap各位忠实Fans的一封信：</strong>
+        经过几个月的精心策划和筹备，我们家“傻儿子+丑闺女”-《玩转MongoDB4.0》、《JavaIO三剑客之BIO/NIO/AIO》终于在准时与各位慕粉见面。所谓“父母之爱子则为之计深远”，为“孩子”远大前程，特地为其【聚人气】，希望慕粉们喜爱他，认他为干儿子干闺女干兄弟姐妹，有你们的一起支持，他一定会更优秀。
+      </div>
+      <!-- 课程简介 end -->
+
+      <!-- 课程章节 -->
+      <div class="part3">
+        <div class="part3_item">
+          <!-- 章节标题 -->
+          <h3>
+            第1章 课程介绍
+          </h3>
+          <div class="chapter-description">
+            介绍课程内容
           </div>
+          <!-- 章节标题 end -->
+          <!-- 章节小节 -->
+          <ul class="video_ul">
+            <li class="video_li">
+              <img src="../src/img/video.png" class="video_img">
+              <a href="https://www.imooc.com/video/17626" class="media-item">
+                <em class="type-text">视频：</em>
+                1-1 MongoDB4.0简介
+                (01:33)
+              </a>
+            </li>
+          </ul>
+          <!-- 章节小节 end -->
+        </div>
+        <div class="part3_item ">
+          <!-- 章节标题 -->
+          <h3>
+            第2章 事务
+          </h3>
+          <div class="chapter-description">
+            介绍事务的概述及特点
+          </div>
+          <!-- 章节标题 end -->
+          <!-- 章节小节 -->
+          <!-- 章节小节 -->
+          <ul class="video_ul">
+            <li class="video_li">
+              <img src="../src/img/video.png" class="video_img">
+              <a href="https://www.imooc.com/video/17626" class="media-item">
+                <em class="type-text">视频：</em>
+                2-1 事务的概述及特点
+                (01:20)
+              </a>
+            </li>
+          </ul>
+
+          <ul class="video_ul">
+            <li class="video_li">
+              <img src="../src/img/video.png" class="video_img">
+              <a href="https://www.imooc.com/video/17626" class="media-item">
+                <em class="type-text">视频：</em>
+                2-2 事务特性之原子性
+                (02:05)
+              </a>
+            </li>
+          </ul>
+
+          <ul class="video_ul">
+            <li class="video_li">
+              <img src="../src/img/video.png" class="video_img">
+              <a href="https://www.imooc.com/video/17626" class="media-item">
+                <em class="type-text">视频：</em>
+                2-3 事务特性之一致性
+                (01:33)
+              </a>
+            </li>
+          </ul>
+
+          <ul class="video_ul">
+            <li class="video_li">
+              <img src="../src/img/video.png" class="video_img">
+              <a href="https://www.imooc.com/video/17626" class="media-item">
+                <em class="type-text">视频：</em>
+                2-4 事务特性之隔离性
+                (02:40)
+              </a>
+            </li>
+          </ul>
+
+          <ul class="video_ul">
+            <li class="video_li">
+              <img src="../src/img/video.png" class="video_img">
+              <a href="https://www.imooc.com/video/17626" class="media-item">
+                <em class="type-text">视频：</em>
+                2-5 事务特性之持久性
+                (01:09)
+              </a>
+            </li>
+          </ul>
+          <!-- 章节小节 end -->
+        </div>
+
+        <div class="part3_item ">
+          <!-- 章节标题 -->
+          <h3>
+            第3章 跨文档事务
+          </h3>
+          <div class="chapter-description">
+            介绍MongoDB 4.0 对跨文档事务的支持以及案例演示
+          </div>
+          <!-- 章节标题 end -->
+          <!-- 章节小节 -->
+          <ul class="video_ul">
+            <li class="video_li">
+              <img src="../src/img/video.png" class="video_img">
+              <a href="https://www.imooc.com/video/17626" class="media-item">
+                <em class="type-text">视频：</em>
+                3-1 跨文档ACID事务 (01:13)
+              </a>
+            </li>
+          </ul>
+          <ul class="video_ul">
+            <li class="video_li">
+              <img src="../src/img/video.png" class="video_img">
+              <a href="https://www.imooc.com/video/17626" class="media-item">
+                <em class="type-text">视频：</em>
+                3-2 事务API演示 (16:38)
+              </a>
+            </li>
+          </ul>
+          <!-- 章节小节 end -->
+        </div>
+
+        <div class="part3_item">
+          <!-- 章节标题 -->
+          <h3>
+            第4章 聚合数据类型转换
+          </h3>
+          <div class="chapter-description">
+            介绍MongoDB 4.0新增的聚合类型转换操作符, 讲解适用场景及案例演示
+          </div>
+          <!-- 章节标题 end -->
+          <!-- 章节小节 -->
+          <ul class="video_ul">
+            <li class="video_li">
+              <img src="../src/img/video.png" class="video_img">
+              <a href="https://www.imooc.com/video/17626" class="media-item">
+                <em class="type-text">视频：</em>
+                4-1 聚合数据类型转换 (01:34)
+              </a>
+            </li>
+          </ul>
+          <ul class="video_ul">
+            <li class="video_li">
+              <img src="../src/img/video.png" class="video_img">
+              <a href="https://www.imooc.com/video/17626" class="media-item">
+                <em class="type-text">视频：</em>
+                4-2 聚合数据类型转换演示 (17:43)
+              </a>
+            </li>
+          </ul>
+          <!-- 章节小节 end -->
+        </div>
+
+        <div class="part3_item">
+          <!-- 章节标题 -->
+          <h3>
+            第5章 修改订阅功能
+          </h3>
+          <div class="chapter-description">
+            介绍MongoDB 4.0对于修改订阅功能的扩展，以及相关实例演示
+          </div>
+          <!-- 章节标题 end -->
+          <!-- 章节小节 -->
+          <ul class="video_ul">
+            <li class="video_li">
+              <img src="../src/img/video.png" class="video_img">
+              <a href="https://www.imooc.com/video/17626" class="media-item">
+                <em class="type-text">视频：</em>
+                5-1 修改订阅功能扩展 (01:29)
+              </a>
+            </li>
+          </ul>
+          <ul class="video_ul">
+            <li class="video_li">
+              <img src="../src/img/video.png" class="video_img">
+              <a href="https://www.imooc.com/video/17626" class="media-item">
+                <em class="type-text">视频：</em>
+                5-2 修改订阅演示 (14:25)
+              </a>
+            </li>
+          </ul>
+          <!-- 章节小节 end -->
+        </div>
+        <div class="part3_item">
+          <!-- 章节标题 -->
+          <h3>
+            第6章 后备节点读取
+          </h3>
+          <div class="chapter-description">
+            介绍MongoDB 4.0实现的非阻塞后备节点读取所带来的性能提升
+          </div>
+          <!-- 章节标题 end -->
+          <!-- 章节小节 -->
+          <ul class="video_ul">
+            <li class="video_li">
+              <img src="../src/img/video.png" class="video_img">
+              <a href="https://www.imooc.com/video/17626" class="media-item">
+                <em class="type-text">视频：</em>
+                6-1 后备节点读取 (05:21)
+              </a>
+            </li>
+          </ul>
+          <!-- 章节小节 end -->
+        </div>
+        <div class="part3_item">
+          <!-- 章节标题 -->
+          <h3>
+            第7章 课程总结
+          </h3>
+          <div class="chapter-description">
+            总结课程内容
+          </div>
+          <!-- 章节标题 end -->
+          <!-- 章节小节 -->
+          <ul class="video_ul">
+            <li class="video_li">
+              <img src="../src/img/video.png" class="video_img">
+              <a href="https://www.imooc.com/video/17626" class="media-item">
+                <em class="type-text">视频：</em>
+                7-1 总结 (01:40)
+              </a>
+            </li>
+          </ul>
+          <!-- 章节小节 end -->
+        </div>
       </div>
+      <!-- 课程章节 end -->
     </div>
 
-    <div>
-
-    </div>
-    <!--   课程简介     -->
-    <div class="part2">简介：本课程介绍了MongoDB 4.0推出的几大核心新特性，理论结合实例。
-      与课程关联实战课正式与慕粉们见面，希望得到大家的关注和喜爱。
-      1、玩转MongoDB4.0：
-      https://coding.imooc.com/class/324.html.
-      2、JavaIO三剑客之BIO/NIO/AIO：
-      https://coding.imooc.com/class/chapter/381.html#Anchor
-
-      致慕课网各位忠实Fans的一封信：
-      经过几个月的精心策划和筹备，我们家“傻儿子+丑闺女”-《玩转MongoDB4.0》、《JavaIO三剑客之BIO/NIO/AIO》终于在准时与各位慕粉见面。所谓“父母之爱子则为之计深远”，为“孩子”远大前程，特地为其【聚人气】，希望慕粉们喜爱他，认他为干儿子干闺女干兄弟姐妹，有你们的一起支持，他一定会更优秀。
-    </div>
-    <!-- 课程简介 end -->
-
-    <!--    开始学习-->
-    <div class="part3">
-      <a href="https://www.imooc.com/video/17626" class="moco-btn moco-btn-red moco-btn-lg J-learn-course">开始学习</a>
-      <div class="course-info-tip">
-        <dl class="first">
-          <dt>课程须知</dt>
-          <dd class="autowrap">1.有mongodb数据操作及管理基础
-            2.开发人员/数据库管理人员</dd>
-        </dl>
-        <dl>
-          <dt>老师告诉你能学到什么？</dt>
-          <dd class="autowrap">1. 数据库事务的ACID应用
-            2.聚合类型转换的应用
-            3.数据订阅功能的扩展和使用</dd>
-        </dl>
+    <div class="part4">
+      <!--    开始学习-->
+      <div class="part4_1">
+        <div class="learning_button">
+          <a href="https://www.imooc.com/video/17626" style="color:white;text-decoration:none">开始学习</a>
+        </div>
+        <div class="course-info-tip">
+          <dl class="first">
+            <dt class="first_title">课程须知</dt>
+            <dd class="first_content">1.有mongodb数据操作及管理基础</br>
+              2.开发人员/数据库管理人员</dd>
+          </dl>
+          <dl class="first">
+            <dt class="first_title">老师告诉你能学到什么？</dt>
+            <dd class="first_content">1. 数据库事务的ACID应用</br>
+              2.聚合类型转换的应用</br>
+              3.数据订阅功能的扩展和使用</dd>
+          </dl>
+        </div>
       </div>
-    </div></div>
+      <!--    课程推荐-->
+      <div class="part4_2">
+        <h4>推荐课程</h4>
+        <ul class="ul_style">
+          <li class="li_style">
+            <img class="course_img" src="./img/lecture1.png">
+            <div class="course_detail">
+              <a href="https://coding.imooc.com/class/71.html?utm_source=courserightcoding" class="course_name">算法与数据结构（C++版） 面试/评级前的算法复习技能包</a>
+              <a class="course_intro">￥166.00 中级 10766</a>
+            </div>
+          </li>
+          <li class="li_style">
+            <img class="course_img" src="./img/lecture2.png">
+            <div class="course_detail">
+              <a href="https://coding.imooc.com/class/71.html?utm_source=courserightcoding" class="course_name">微信小程序入门与实战（全新版） 超20000人学习的好课</a>
+              <a class="course_intro">￥149.00 初级 22786</a>
+            </div>
+          </li>
+          <li class="li_style">
+            <img class="course_img" src="./img/lecture3.png">
+            <div class="course_detail">
+              <a href="https://coding.imooc.com/class/71.html?utm_source=courserightcoding" class="course_name">全面系统Python3.8入门+进阶 (程序员必备第二语言) </a>
+              <a class="course_intro">￥149.00 初级 22786</a>
+            </div>
+          </li>
+          <li class="li_style">
+            <img class="course_img" src="./img/lecture4.png">
+            <div class="course_detail">
+              <a href="https://coding.imooc.com/class/71.html?utm_source=courserightcoding" class="course_name">SpringCloud  Finchley三版本微服务实战</a>
+              <a class="course_intro">￥149.00 初级 22786</a>
+            </div>
+          </li>
+          <li class="li_style">
+            <img class="course_img" src="./img/lecture5.png">
+            <div class="course_detail">
+              <a href="https://coding.imooc.com/class/71.html?utm_source=courserightcoding" class="course_name">玩转MongoDB4.0(最新版) 从入门到实践</a>
+              <a class="course_intro">￥149.00 初级 22786</a>
+            </div>
+          </li>
+        </ul>
+      </div>
 
-    <!--    课程推荐-->
-    <div class="part4">                        <h4>推荐课程</h4>                        <ul class="js-recom-course moco-aside-course clearfix"><li><div class="aside-course-img"><img src="./MongoDB 4.0新特性-慕课网_files/59eeb022000162bc05400300-360-202.jpg"><p class="aside-course-type">实战</p></div><div class="aside-course-content"><a href="https://coding.imooc.com/class/71.html?utm_source=courserightcoding" class="aside-course-name" target="_blank">算法与数据结构（C++版） 面试/评级前的算法复习技能包</a><p class="aside-course-price"><span>￥166.00</span></p><div class="aside-course-dot"><i class="imv2-dot_samll"></i></div><p class="aside-course-grade">中级</p><div class="aside-course-dot"><i class="imv2-dot_samll"></i></div><p class="aside-course-people"><i class="imv2-set-sns"></i><span>10766</span></p></div></li><li><div class="aside-course-img"><img src="./MongoDB 4.0新特性-慕课网_files/5f3c866608d7a4e706000338-360-202.jpg"><p class="aside-course-type">实战</p></div><div class="aside-course-content"><a href="https://coding.imooc.com/class/75.html?utm_source=courserightcoding" class="aside-course-name" target="_blank">微信小程序入门与实战（全新版） 超20000人学习的好课</a><p class="aside-course-price"><span>￥149.00</span></p><div class="aside-course-dot"><i class="imv2-dot_samll"></i></div><p class="aside-course-grade">初级</p><div class="aside-course-dot"><i class="imv2-dot_samll"></i></div><p class="aside-course-people"><i class="imv2-set-sns"></i><span>22785</span></p></div></li><li><div class="aside-course-img"><img src="./MongoDB 4.0新特性-慕课网_files/59b8a486000107fb05400300-360-202.jpg"><p class="aside-course-type">实战</p></div><div class="aside-course-content"><a href="https://coding.imooc.com/class/136.html?utm_source=courserightcoding" class="aside-course-name" target="_blank">全面系统Python3.8入门+进阶 (程序员必备第二语言) </a><p class="aside-course-price"><span>￥366.00</span></p><div class="aside-course-dot"><i class="imv2-dot_samll"></i></div><p class="aside-course-grade">初级</p><div class="aside-course-dot"><i class="imv2-dot_samll"></i></div><p class="aside-course-people"><i class="imv2-set-sns"></i><span>13454</span></p></div></li><li><div class="aside-course-img"><img src="./MongoDB 4.0新特性-慕课网_files/5cb68a1408ed350506000338-360-202.jpg"><p class="aside-course-type">实战</p></div><div class="aside-course-content"><a href="https://coding.imooc.com/class/187.html?utm_source=courserightcoding" class="aside-course-name" target="_blank">SpringCloud  Finchley三版本微服务实战</a><p class="aside-course-price"><span>￥366.00</span></p><div class="aside-course-dot"><i class="imv2-dot_samll"></i></div><p class="aside-course-grade">高级</p><div class="aside-course-dot"><i class="imv2-dot_samll"></i></div><p class="aside-course-people"><i class="imv2-set-sns"></i><span>5563</span></p></div></li><li><div class="aside-course-img"><img src="./MongoDB 4.0新特性-慕课网_files/5c90dc020849c59a06000338-360-202.jpg"><p class="aside-course-type">实战</p></div><div class="aside-course-content"><a href="https://coding.imooc.com/class/324.html?utm_source=courserightcoding" class="aside-course-name" target="_blank">玩转MongoDB4.0(最新版) 从入门到实践</a><p class="aside-course-price"><span>￥288.00</span></p><div class="aside-course-dot"><i class="imv2-dot_samll"></i></div><p class="aside-course-grade">入门</p><div class="aside-course-dot"><i class="imv2-dot_samll"></i></div><p class="aside-course-people"><i class="imv2-set-sns"></i><span>1019</span></p></div></li></ul></div></div>
+      <div class="part4_2">
+        <h4>推荐路线<span>系统化学习，打造阶梯学习模式</span></h4>
+        <ul class="ul_style">
+          <li class="li_style">
+            <img class="course_img" src="./img/lecture6.png">
+            <div class="course_detail">
+              <a href="https://coding.imooc.com/class/71.html?utm_source=courserightcoding" class="course_name">算法与数据结构（C++版） 面试/评级前的算法复习技能包</a>
+              <a class="course_intro">5步骤 8门课 5678人收藏</a>
+            </div>
+          </li>
+          <li class="li_style">
+            <img class="course_img" src="./img/lecture7.png">
+            <div class="course_detail">
+              <a href="https://coding.imooc.com/class/71.html?utm_source=courserightcoding" class="course_name">微信小程序入门与实战（全新版） 超20000人学习的好课</a>
+              <a class="course_intro">4步骤 4门课 6346人收藏</a>
+            </div>
+          </li>
+          <li class="li_style">
+            <img class="course_img" src="./img/lecture8.png">
+            <div class="course_detail">
+              <a href="https://coding.imooc.com/class/71.html?utm_source=courserightcoding" class="course_name">全面系统Python3.8入门+进阶 (程序员必备第二语言) </a>
+              <a class="course_intro">4步骤 4门课 11269人收藏</a>
+            </div>
+          </li>
+        </ul>
+      </div>
 
-    <!--  课程推荐列表-->
-<!--  <div class="part2 ">-->
-<!--    <div class="w">-->
-<!--      <ul class="course-menu">-->
-<!--              <li><a class="moco-change-big-btn active" id="learnOn" href="https://www.imooc.com/learn/1026">章节</a></li>-->
+      <div class="part4_2">
+        <h4>推荐课程</h4>
+        <ul class="ul_style">
+          <li class="li_style">
+            <img class="course_img" src="./img/lecture9.png">
+            <div class="course_detail">
+              <a href="https://coding.imooc.com/class/71.html?utm_source=courserightcoding" class="course_name">算法与数据结构（C++版） 面试/评级前的算法复习技能包</a>
+              <a class="course_intro">中级 5106</a>
+            </div>
+          </li>
+          <li class="li_style">
+            <img class="course_img" src="./img/lecture10.png">
+            <div class="course_detail">
+              <a href="https://coding.imooc.com/class/71.html?utm_source=courserightcoding" class="course_name">微信小程序入门与实战（全新版） 超20000人学习的好课</a>
+              <a class="course_intro">中级 5783</a>
+            </div>
+          </li>
+          <li class="li_style">
+            <img class="course_img" src="./img/lecture11.png">
+            <div class="course_detail">
+              <a href="https://coding.imooc.com/class/71.html?utm_source=courserightcoding" class="course_name">全面系统Python3.8入门+进阶 (程序员必备第二语言) </a>
+              <a class="course_intro">中级 4210</a>
+            </div>
+          </li>
+          <li class="li_style">
+            <img class="course_img" src="./img/lecture12.png">
+            <div class="course_detail">
+              <a href="https://coding.imooc.com/class/71.html?utm_source=courserightcoding" class="course_name">SpringCloud  Finchley三版本微服务实战</a>
+              <a class="course_intro">中级 8836</a>
+            </div>
+          </li>
+          <li class="li_style">
+            <img class="course_img" src="./img/lecture13.png">
+            <div class="course_detail">
+              <a href="https://coding.imooc.com/class/71.html?utm_source=courserightcoding" class="course_name">玩转MongoDB4.0(最新版) 从入门到实践</a>
+              <a class="course_intro">入门 811</a>
+            </div>
+          </li>
+        </ul>
+      </div>
 
-<!--        <li><span>57</span><a id="qaOn" class="moco-change-big-btn " href="https://www.imooc.com/qa/1026/t/0">问答</a></li>-->
-<!--        <li><a id="noteOn" class="moco-change-big-btn " href="https://www.imooc.com/note/1026?sort=hot&amp;page=1">笔记</a></li>-->
-<!--              <li><span>15</span><a id="commentOn" class="moco-change-big-btn " href="https://www.imooc.com/coursescore/1026">评价</a></li>-->
-<!--              <li><a style="display:none;" id="wikiOn" class="moco-change-big-btn " href="https://www.imooc.com/coursewiki/1026">WIKI</a></li>-->
-<!--      </ul>-->
-<!--    </div>-->
-<!--  </div>-->
-
-    <!--  </div>&lt;!&ndash; 课程面板 &ndash;&gt;-->
-<!--    <div class="part2">-->
-
-<!--      <div class="content-wrap clearfix">-->
-<!--        <div class="content">-->
-
-<!--          &lt;!&ndash; 课程章节 &ndash;&gt;-->
-
-<!--          <div class="aside r">-->
-
-<!--            <div class="course-wrap course-aside-info js-usercard-box">-->
-<!--              <div class="learn-btn">-->
-
-
-
-
-
-
-
-
-
-
-
-<!--            </div>-->
-
-<!--            <div id="coursechapterlistRight" class="js-zhuge-adv" data-type="coursechapterlistRight" style="display: block;"><div><img src="./MongoDB 4.0新特性-慕课网_files/6262531d0990a36d12800640.jpg"></div><div></div></div>-->
-
-<!--            <div id="groupPop">-->
-<!--              <div class="groupPop-wrap">-->
-<!--                <div class="qrcode_group">-->
-<!--                  <div class="loading"></div>-->
-<!--                </div>-->
-<!--                <p class="groupPop-tip">微信扫码，参与3人拼团</p>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--            <div class="js-tag-box">-->
-<!--            </div>-->
-<!--            <div class="js-path-box"><div class="mb40 all-path-box">                        <h4>推荐路线<span class="title-desc">系统化学习，打造阶梯学习模式</span></h4>                        <ul class="js-recom-path aside-path clearfix"><li>                                <div class="aside-path-img">                                    <img src="./MongoDB 4.0新特性-慕课网_files/604f2bd6093feba203240324.jpg">                                    <img src="./MongoDB 4.0新特性-慕课网_files/604f2bd6093feba203240324.jpg">                                    <img src="./MongoDB 4.0新特性-慕课网_files/604f2bd6093feba203240324.jpg">                                </div>                                <div class="aside-path-content">                                    <a href="https://coding.imooc.com/learningpath/route?pathId=5&amp;utm_source=courserightpath" class="aside-path-name" target="_blank">Go语言从入门到达人之路</a>                                    <p class="aside-path-step">5步骤<i class="imv2-dot_samll"></i>8门课</p>                                    <p class="aside-path-collect js-collect-asidepath"><i class="imv2-star1"></i>5675人收藏</p>                                </div>                            </li><li>                                <div class="aside-path-img">                                    <img src="./MongoDB 4.0新特性-慕课网_files/604f2bbf09dee9f403240324.jpg">                                    <img src="./MongoDB 4.0新特性-慕课网_files/604f2bbf09dee9f403240324.jpg">                                    <img src="./MongoDB 4.0新特性-慕课网_files/604f2bbf09dee9f403240324.jpg">                                </div>                                <div class="aside-path-content">                                    <a href="https://coding.imooc.com/learningpath/route?pathId=7&amp;utm_source=courserightpath" class="aside-path-name" target="_blank">SpringCloud+Alibaba 从入门到进阶 </a>                                    <p class="aside-path-step">4步骤<i class="imv2-dot_samll"></i>4门课</p>                                    <p class="aside-path-collect js-collect-asidepath"><i class="imv2-star1"></i>6344人收藏</p>                                </div>                            </li><li>                                <div class="aside-path-img">                                    <img src="./MongoDB 4.0新特性-慕课网_files/604f2b2d09ecef7f03240324.jpg">                                    <img src="./MongoDB 4.0新特性-慕课网_files/604f2b2d09ecef7f03240324.jpg">                                    <img src="./MongoDB 4.0新特性-慕课网_files/604f2b2d09ecef7f03240324.jpg">                                </div>                                <div class="aside-path-content">                                    <a href="https://coding.imooc.com/learningpath/route?pathId=22&amp;utm_source=courserightpath" class="aside-path-name" target="_blank">从零开始精通Python3语法</a>                                    <p class="aside-path-step">4步骤<i class="imv2-dot_samll"></i>4门课</p>                                    <p class="aside-path-collect js-collect-asidepath"><i class="imv2-star1"></i>11269人收藏</p>                                </div>                            </li></ul>                    </div>-->
-<!--            </div>-->
-<!--            <div class="js-related-box">-->
-<!--              <div class="mb40 recom-course-list-box">                        <h4>相关课程</h4>                        <ul class="js-recom-course moco-aside-course clearfix"><li><div class="aside-course-img"><img src="./MongoDB 4.0新特性-慕课网_files/5680dbb8000173d406000338-240-135.jpg"></div><div class="aside-course-content"><a href="https://www.imooc.com/learn/578?utm_source=courseright" class="aside-course-name" target="_blank">MongoDB复制集—复制集的相关特性</a><p class="aside-course-grade">中级</p><div class="aside-course-dot"><i class="imv2-dot_samll"></i></div><p class="aside-course-people"><i class="imv2-set-sns"></i><span>5106</span></p></div></li><li><div class="aside-course-img"><img src="./MongoDB 4.0新特性-慕课网_files/56a08eed0001fdf319201080-240-135.jpg"></div><div class="aside-course-content"><a href="https://www.imooc.com/learn/595?utm_source=courseright" class="aside-course-name" target="_blank">  MongoDB复制集—复制集监控</a><p class="aside-course-grade">中级</p><div class="aside-course-dot"><i class="imv2-dot_samll"></i></div><p class="aside-course-people"><i class="imv2-set-sns"></i><span>8836</span></p></div></li><li><div class="aside-course-img"><img src="./MongoDB 4.0新特性-慕课网_files/569762af00017b3806000338-240-135.jpg"></div><div class="aside-course-content"><a href="https://www.imooc.com/learn/582?utm_source=courseright" class="aside-course-name" target="_blank"> MongoDB复制集—复制集的同步机制</a><p class="aside-course-grade">中级</p><div class="aside-course-dot"><i class="imv2-dot_samll"></i></div><p class="aside-course-people"><i class="imv2-set-sns"></i><span>5783</span></p></div></li><li><div class="aside-course-img"><img src="./MongoDB 4.0新特性-慕课网_files/56d7e6a100016a9b06000338-240-135.jpg"></div><div class="aside-course-content"><a href="https://www.imooc.com/learn/614?utm_source=courseright" class="aside-course-name" target="_blank">MongoDB复制集—复制集安全</a><p class="aside-course-grade">中级</p><div class="aside-course-dot"><i class="imv2-dot_samll"></i></div><p class="aside-course-people"><i class="imv2-set-sns"></i><span>4210</span></p></div></li><li><div class="aside-course-img"><img src="./MongoDB 4.0新特性-慕课网_files/cover015_s.jpg"></div><div class="aside-course-content"><a href="https://www.imooc.com/learn/1230?utm_source=courseright" class="aside-course-name" target="_blank">Web项目开发及线上部署</a><p class="aside-course-grade">初级</p><div class="aside-course-dot"><i class="imv2-dot_samll"></i></div><p class="aside-course-people"><i class="imv2-set-sns"></i><span>2685</span></p></div></li></ul></div></div>-->
-
-<!--          </div>-->
-<!--        </div>-->
-<!--        <div class="clear"></div>-->
-
-<!--      </div>-->
-<!--      &lt;!&ndash; 视频介绍 &ndash;&gt;-->
-<!--      <div id="js-video-wrap" class="video pop-video" style="display:none">-->
-<!--        <div class="video_box" id="js-video"></div>-->
-<!--        <a href="javascript:;" class="pop-close icon-close"></a>-->
-<!--      </div>-->
-
-
-
-<!--    </div>-->
-
-
-
-
-
+    </div>
+  </div>
 </body>
 

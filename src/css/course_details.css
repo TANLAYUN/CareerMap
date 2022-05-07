@@ -1,33 +1,197 @@
+.body_test{
+  width:100%;
+  margin: 0px;
+  background: #f8fafc;
+}
 .maogo_image{
   width: 100%;
-  height:200px;
-  background-image: url(../img/MongoDB_1.png);
+  height:250px;
+  background-image: url(../img/MongoDB_1.jpg);
+  box-shadow: 0 8px 16px 0 rgb(7 17 27 / 10%);
+}
+.course_title{
+  margin:0px 0px 40px 0px;
+}
+.path{
+  padding-top: 16px;
+  padding-bottom: 24px;
+  line-height: 24px;
+  font-size: 14px;
+  color: rgba(255,255,255,.5);
+  opacity: 1
 }
 .course_title{
   color:white;
   font-size: 32px;
 }
+.part23{
+  position:relative;
+  width:100%;
+}
+.part1{
+  padding-left: 40px;
+  margin:0px;
+}
+.engineer{
+  color:white;
+  font-size: 14px;
+  position: relative;
+  height:100px;
+}
+.teacher{
+  position: absolute;
+  display: inline-block;
+  left:8%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+  font-size:16px;
+}
+.evaluation{
+  position: absolute;
+  display: inline-block;
+  left: 40%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+  margin-top: 16px;
+}
+.evaluation_item{
+  padding-right: 8px;
+  line-height: 12px;
+  font-size: 14px;
+  font-weight: 700;
+}
 .part2{
-  width:800px;
-  line-height: 28px;
+  position:absolute;
+  left:0;
+  width:700px;
+  line-height: 30px;
   white-space: pre-line;
-  margin-bottom: 8px;
-  padding: 24px 32px 32px;
-  background: #fff;
+  margin: 20px -10px;
+  padding: 45px;
   box-shadow: 0 8px 16px 0 rgb(7 17 27 / 10%);
   border-radius: 12px;
-  box-shadow: 10px 10px 5px #888888;
+  background: #fff;
 }
 .part3{
-  position:fixed;
-  margin-bottom: 32px;
-  min-height: 400px;
-  position: relative;
-  z-index: 901;
-  padding: 24px 32px 32px;
+  position:absolute;
+  margin:475px 0px 0px -10px;
+}
+.part3 h3{
+  margin:5px 0px;
+}
+.part3_item{
+  padding: 30px 50px;
   background: #fff;
   box-shadow: 0 8px 16px 0 rgb(7 17 27 / 10%);
   border-radius: 12px;
-  left:800px;
+  width:700px;
+  margin:10px 0px;
+}
+.part4{
+  position:absolute;
+  right:10px;
+  top:100px;
+  margin-bottom: 32px;
+  min-height: 400px;
+  z-index: 901;
+}
+.part4_1{
+  box-shadow: 0 8px 16px 0 rgb(7 17 27 / 10%);
+  border-radius: 12px;
+  padding: 24px 32px 32px;
   width:400px;
+  background: #fff;
+}
+.part4_2{
+  box-shadow: 0 8px 16px 0 rgb(7 17 27 / 10%);
+  border-radius: 12px;
+  padding: 24px 32px 32px;
+  width:400px;
+  background: #fff;
+  margin:20px 0px;
+}
+.learning_button{
+  padding: 11px 32px;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 24px;
+  background-color:  #78c002;
+  border-color:  #78c002;
+  text-align: center;
+}
+.first_title{
+  font: 18px/1.5 "PingFang SC","微软雅黑","Microsoft YaHei",Helvetica,"Helvetica Neue",Tahoma,Arial,sans-serif;
+  color: #1c1f21;
+  font-weight:bold;
+}
+.first_content{
+  font: 16px/1.5 "PingFang SC","微软雅黑","Microsoft YaHei",Helvetica,"Helvetica Neue",Tahoma,Arial,sans-serif;
+  color: #5E5C43;
+  font-weight:bold;
+}
+.course_img{
+  width: 80px;
+  height: 60px;
+  border-radius: 6px;
+  display: inline;
+}
+.course_detail{
+  display: inline;
+  width:80px;
+}
+.course_detail>.course_name{
+  text-overflow:ellipsis;
+  text-decoration: none;
+  position: absolute;
+  overflow: hidden;
+  max-height: 44px;
+  white-space: initial;
+  font-size: 14px;
+  line-height: 22px;
+  cursor: pointer;
+  color: #545C63;
+  margin:0px 30px 0px 10px;
+}
+.course_detail>.course_intro{
+  position: absolute;
+  height:auto;
+  font-size: 12px;
+  color: #545C63;
+  line-height: 18px;
+  margin:45px 8px;
+  font-weight:bold;
+}
+.ul_style{
+  padding-left:0px;
+}
+.li_style{
+  list-style: none;
+  border-bottom:1px solid #545C63;
+  margin:20px 10px;
+  padding-bottom: 10px;
+}
+.video_li{
+  list-style: none;
+}
+.video_img{
+  width:25px;
+  height:25px;
+  border-radius:100%;
+  vertical-align: middle;
+}
+.media-item{
+  text-decoration: none;
+  color:#1c1f21;
+}
+.media-item:hover {
+  color:red;
+}
+.chapter-description{
+  font-size: 12px;
+  color: #545c63;
+  line-height: 18px;
+  margin:10px 0px;
+}
+.video_ul{
+  padding-top:10px;
 }
