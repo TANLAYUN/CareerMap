@@ -39,8 +39,8 @@
         <nav class="tm-nav">
           <ul>
             <li><a href="index.html" class="active">主页</a></li>
-            <li><a href="about.html">发现课程</a></li>
-            <li><a href="tours.html">职业招聘</a></li>
+            <li><a href="course-display.html">发现课程</a></li>
+            <li><a href="job-display.html">职业招聘</a></li>
             <li><a href="contact.html">岗位分析</a></li>
             <li><a href="contact.html">学习规划</a></li>
             <li><a href="contact.html">简历精修</a></li>
@@ -59,27 +59,17 @@
     <ul class="slides">
       <li>
         <div class="tm-banner-inner">
-          <h1 class="tm-banner-title">Find <span class="tm-yellow-text">The Best</span> Place</h1>
-          <p class="tm-banner-subtitle">For Your Holidays</p>
-          <a href="#more" class="tm-banner-link">Learn More</a>
-        </div>
-        <img src="img/banner-1.webp" alt="Image" />
-      </li>
-      <li>
-        <div class="tm-banner-inner">
-          <h1 class="tm-banner-title">Lorem <span class="tm-yellow-text">Ipsum</span> Dolor</h1>
-          <p class="tm-banner-subtitle">Wonderful Destinations</p>
-          <a href="#more" class="tm-banner-link">Learn More</a>
-        </div>
-        <img src="img/banner-2.jpg" alt="Image" />
-      </li>
-      <li>
-        <div class="tm-banner-inner">
-          <h1 class="tm-banner-title">Proin <span class="tm-yellow-text">Gravida</span> Nibhvell</h1>
-          <p class="tm-banner-subtitle">Velit Auctor</p>
-          <a href="#more" class="tm-banner-link">Learn More</a>
+          <h1 class="tm-banner-title">在CareerMap，私人定制你的 <span class="tm-yellow-text">学习路线</span> </h1>
+          <p class="tm-banner-subtitle">以职业为导向，构建岗位能力地图</p>
+          <a href="#more" class="tm-banner-link">点击开始岗位能力测试！</a>
         </div>
         <img src="img/banner-3.jpg" alt="Image" />
+      </li>
+      <li>
+        <img src="img/banner-1.jpg" alt="Image" />
+      </li>
+      <li>
+        <img src="img/banner-2.jpg" alt="Image" />
       </li>
     </ul>
   </div>
@@ -88,280 +78,198 @@
 <!-- gray bg -->
 <section class="container tm-home-section-1" id="more">
   <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-6">
-      <!-- Nav tabs -->
-      <div class="tm-home-box-1">
-        <ul class="nav nav-tabs tm-white-bg" role="tablist" id="hotelCarTabs">
-          <li role="presentation" class="active">
-            <a href="#hotel" aria-controls="hotel" role="tab" data-toggle="tab">Hotel</a>
-          </li>
-          <li role="presentation">
-            <a href="#car" aria-controls="car" role="tab" data-toggle="tab">Car Rental</a>
-          </li>
-        </ul>
-
-        <!-- Tab panes -->
-        <div class="tab-content">
-          <div role="tabpanel" class="tab-pane fade in active tm-white-bg" id="hotel">
-            <div class="tm-search-box effect2">
-              <form action="#" method="post" class="hotel-search-form">
-                <div class="tm-form-inner">
-                  <div class="form-group">
-                    <select class="form-control">
-                      <option value="">-- Select Hotel -- </option>
-                      <option value="shangrila">Shangri-La</option>
-                      <option value="chatrium">Chatrium</option>
-                      <option value="fourseasons">Four Seasons</option>
-                      <option value="hilton">Hilton</option>
-                    </select>
-                  </div>
-                  <div class="form-group">
-                    <div class='input-group date' id='datetimepicker1'>
-                      <input type='text' class="form-control" placeholder="Check-in Date" />
-                      <span class="input-group-addon">
-							                        <span class="fa fa-calendar"></span>
-							                    </span>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <div class='input-group date' id='datetimepicker2'>
-                      <input type='text' class="form-control" placeholder="Check-out Date" />
-                      <span class="input-group-addon">
-							                        <span class="fa fa-calendar"></span>
-							                    </span>
-                    </div>
-                  </div>
-                  <div class="form-group margin-bottom-0">
-                    <select class="form-control">
-                      <option value="">-- Guests -- </option>
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                      <option value="4">4</option>
-                      <option value="5p">5+</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="form-group tm-yellow-gradient-bg text-center">
-                  <button type="submit" name="submit" class="tm-yellow-btn">Check Now</button>
-                </div>
-              </form>
-            </div>
-          </div>
-          <div role="tabpanel" class="tab-pane fade tm-white-bg" id="car">
-            <div class="tm-search-box effect2">
-              <form action="#" method="post" class="hotel-search-form">
-                <div class="tm-form-inner">
-                  <div class="form-group">
-                    <select class="form-control">
-                      <option value="">-- Select Model -- </option>
-                      <option value="shangrila">BMW</option>
-                      <option value="chatrium">Mercedes-Benz</option>
-                      <option value="fourseasons">Toyota</option>
-                      <option value="hilton">Honda</option>
-                    </select>
-                  </div>
-                  <div class="form-group">
-                    <div class='input-group date-time' id='datetimepicker3'>
-                      <input type='text' class="form-control" placeholder="Pickup Date" />
-                      <span class="input-group-addon">
-							                        <span class="fa fa-calendar"></span>
-							                    </span>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <div class='input-group date-time' id='datetimepicker4'>
-                      <input type='text' class="form-control" placeholder="Return Date" />
-                      <span class="input-group-addon">
-							                        <span class="fa fa-calendar"></span>
-							                    </span>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <select class="form-control">
-                      <option value="">-- Options -- </option>
-                      <option value="">Child Seat</option>
-                      <option value="">GPS Navigator</option>
-                      <option value="">Insurance</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="form-group tm-yellow-gradient-bg text-center">
-                  <button type="submit" name="submit" class="tm-yellow-btn">Check Now</button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="tm-section-header">
+      <div class="col-lg-3 col-md-3 col-sm-3"><hr></div>
+      <div class="col-lg-6 col-md-6 col-sm-6"><h2 class="tm-section-title">优 质 课 程 推 荐</h2></div>
+      <div class="col-lg-3 col-md-3 col-sm-3"><hr></div>
     </div>
-
+  </div>
+  <div class="more-course">
+    <a href="course-display.html">更多课程 >></a>
+  </div>
+  <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-6">
       <div class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-center">
-        <img src="img/index-01.jpg" alt="image" class="img-responsive">
-        <a href="#">
-          <div class="tm-green-gradient-bg tm-city-price-container">
-            <span>New York</span>
-            <span>$6,600</span>
-          </div>
-        </a>
+        <img src="img/index-01.webp" alt="image" class="img-responsive">
+
+        <div class="tm-green-gradient-bg tm-city-price-container course-school">
+          <a href="#"><span>数字图像处理</span></a>
+          <a href="#"><span>武汉理工大学</span></a>
+        </div>
+        <div class="tm-green-gradient-bg tm-city-price-container teacher">
+          <a href="#"><span>黄朝兵</span></a>
+        </div>
+        <div class="tm-green-gradient-bg tm-city-price-container favor-number">
+          <a href="#"><span>783人收藏</span></a>
+          <a href="#"><span>7111人参加</span></a>
+        </div>
+
       </div>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-6">
       <div class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-right">
-        <img src="img/index-02.jpg" alt="image" class="img-responsive">
-        <a href="#">
-          <div class="tm-red-gradient-bg tm-city-price-container">
-            <span>Paris</span>
-            <span>$4,200</span>
-          </div>
-        </a>
+        <img src="img/index-02.webp" alt="image" class="img-responsive">
+        <div class="tm-green-gradient-bg tm-city-price-container course-school">
+          <a href="#"><span>网页设计基础</span></a>
+          <a href="#"><span>北京语言大学</span></a>
+        </div>
+        <div class="tm-green-gradient-bg tm-city-price-container teacher">
+          <a href="#"><span>赵慧周</span></a>
+        </div>
+        <div class="tm-green-gradient-bg tm-city-price-container favor-number">
+          <a href="#"><span>249收藏</span></a>
+          <a href="#"><span>2842人参加</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-6">
+      <div class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-center">
+        <img src="img/index-03.webp" alt="image" class="img-responsive">
+        <div class="tm-green-gradient-bg tm-city-price-container course-school">
+          <a href="#"><span>计算机操作系统</span></a>
+          <a href="#"><span>电子科技大学</span></a>
+        </div>
+        <div class="tm-green-gradient-bg tm-city-price-container teacher">
+          <a href="#"><span>嵩天</span></a>
+        </div>
+        <div class="tm-green-gradient-bg tm-city-price-container favor-number">
+          <a href="#"><span>1249收藏</span></a>
+          <a href="#"><span>14373人参加</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-6">
+      <div class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-right">
+        <img src="img/index-04.webp" alt="image" class="img-responsive">
+        <div class="tm-green-gradient-bg tm-city-price-container course-school">
+          <a href="#"><span>模式识别与机器学习</span></a>
+          <a href="#"><span>福州大学</span></a>
+        </div>
+        <div class="tm-green-gradient-bg tm-city-price-container teacher">
+          <a href="#"><span>于元隆</span></a>
+        </div>
+        <div class="tm-green-gradient-bg tm-city-price-container favor-number">
+          <a href="#"><span>322人收藏</span></a>
+          <a href="#"><span>1122人参加</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-6">
+      <div class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-right">
+        <img src="img/index-05.webp" alt="image" class="img-responsive">
+        <div class="tm-green-gradient-bg tm-city-price-container course-school">
+          <a href="#"><span>人工智能与信息社会</span></a>
+          <a href="#"><span>北京大学</span></a>
+        </div>
+        <div class="tm-green-gradient-bg tm-city-price-container teacher">
+          <a href="#"><span>陈斌</span></a>
+        </div>
+        <div class="tm-green-gradient-bg tm-city-price-container favor-number">
+          <a href="#"><span>701人收藏</span></a>
+          <a href="#"><span>5407人参加</span></a>
+        </div>
       </div>
     </div>
   </div>
+<!--
+alibaba https://www.zhipin.com/job_detail/91b81258b175dc581n1z39i_EFpW.html?securityId=tfTqTCYIrQeRn-l1ysGpANN78cWNxFPHGksbuW4Y_47xtuMZd8msvqvgZhVbQLiF5yAR900~
+Tencent https://www.zhipin.com/job_detail/57c91af65a8043fb1XV50926E1BV.html?ka=hot-job-3
+jingdong https://www.zhipin.com/job_detail/80558fd689981cf41nV93dm4GFBV.html?securityId=77C3aEo08nBs2-71hC-ATul3nrlZtUCFecBoPuriBPEYCcl1jQJ5PCcZFJC_7jDDYXePrq4~
+good future https://www.zhipin.com/job_detail/3ec7a1698cf8e5e71XZ43tq8EVZR.html?ka=hot-job-1
+猫眼娱乐 https://www.zhipin.com/job_detail/75dcc0912333d4691nJ72dW8F1pV.html?ka=hot-job-1
 
+-->
   <div class="section-margin-top">
     <div class="row">
       <div class="tm-section-header">
         <div class="col-lg-3 col-md-3 col-sm-3"><hr></div>
-        <div class="col-lg-6 col-md-6 col-sm-6"><h2 class="tm-section-title">Lorem Ipsum Dolor</h2></div>
+        <div class="col-lg-6 col-md-6 col-sm-6"><h2 class="tm-section-title">优 质 岗 位 推 荐</h2></div>
         <div class="col-lg-3 col-md-3 col-sm-3"><hr></div>
       </div>
+    </div>
+    <div class="more-course">
+      <a href="job-display.html">更多岗位 >></a>
     </div>
     <div class="row">
       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
         <div class="tm-home-box-2">
-          <img src="img/index-03.jpg" alt="image" class="img-responsive">
-          <h3>Proin Gravida Nibhvel Lorem Quis Bind</h3>
-          <p class="tm-date">28 March 2016</p>
+          <img src="img/index-05.png" alt="image" class="img-responsive">
+          <h3>大数据研发工程师&emsp;<b style="color: #FFA500">20-40k</b></h3>
+          <p class="tm-date">杭州 · 1-3年 · 本科</p>
           <div class="tm-home-box-2-container">
-            <a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
-            <a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description">Travel</span></a>
-            <a href="#" class="tm-home-box-2-link"><i class="fa fa-edit tm-home-box-2-icon border-left"></i></a>
+            <a href="#" class="tm-home-box-2-link">&emsp;<img src="img/icon-company.png"><b class="fa tm-home-box-2-icon border-right">阿里巴巴</b></a>
+            <a href="#" class="tm-home-box-2-link">&emsp;<img src="img/icon-gopublic.png"><span class="tm-home-box-2-description">已上市</span></a>
+            <br>
+            <a href="#" class="tm-home-box-2-link">&emsp;<img src="img/icon-person.png"><b class="fa tm-home-box-2-icon border-left">10000人以上</b></a>
           </div>
         </div>
       </div>
       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
         <div class="tm-home-box-2">
-          <img src="img/index-04.jpg" alt="image" class="img-responsive">
-          <h3>Proin Gravida Nibhvel Lorem Quis Bind</h3>
-          <p class="tm-date">26 March 2016</p>
+          <img src="img/index-06.jpg" alt="image" class="img-responsive">
+          <h3>Android开发工程师&emsp;<b style="color: #FFA500">15-30k</b></h3>
+          <p class="tm-date">深圳 · 1-3年 · 本科</p>
           <div class="tm-home-box-2-container">
-            <a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
-            <a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description">Travel</span></a>
-            <a href="#" class="tm-home-box-2-link"><i class="fa fa-edit tm-home-box-2-icon border-left"></i></a>
+            <a href="#" class="tm-home-box-2-link">&emsp;<img src="img/icon-company.png"><b class="fa tm-home-box-2-icon border-right">腾讯</b></a>
+            <a href="#" class="tm-home-box-2-link">&emsp;<img src="img/icon-gopublic.png"><span class="tm-home-box-2-description">不需要融资</span></a>
+            <br>
+            <a href="#" class="tm-home-box-2-link">&emsp;<img src="img/icon-person.png"><b class="fa tm-home-box-2-icon border-left">10000人以上</b></a>
           </div>
         </div>
       </div>
       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
         <div class="tm-home-box-2">
-          <img src="img/index-05.jpg" alt="image" class="img-responsive">
-          <h3>Proin Gravida Nibhvel Lorem Quis Bind</h3>
-          <p class="tm-date">24 March 2016</p>
+          <img src="img/index-07.jpg" alt="image" class="img-responsive">
+          <h3>搜索算法工程师&emsp;<b style="color: #FFA500">25-40k·14薪</b></h3>
+          <p class="tm-date">北京 · 在校/应届 · 硕士</p>
           <div class="tm-home-box-2-container">
-            <a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
-            <a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description">Travel</span></a>
-            <a href="#" class="tm-home-box-2-link"><i class="fa fa-edit tm-home-box-2-icon border-left"></i></a>
+            <a href="#" class="tm-home-box-2-link">&emsp;<img src="img/icon-company.png"><b class="fa tm-home-box-2-icon border-right">京东</b></a>
+            <a href="#" class="tm-home-box-2-link">&emsp;<img src="img/icon-gopublic.png"><span class="tm-home-box-2-description">已上市</span></a>
+            <br>
+            <a href="#" class="tm-home-box-2-link">&emsp;<img src="img/icon-person.png"><b class="fa tm-home-box-2-icon border-left">10000人以上</b></a>
           </div>
         </div>
       </div>
       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
         <div class="tm-home-box-2 tm-home-box-2-right">
-          <img src="img/index-06.jpg" alt="image" class="img-responsive">
-          <h3>Proin Gravida Nibhvel Lorem Quis Bind</h3>
-          <p class="tm-date">22 March 2016</p>
+          <img src="img/index-08.jpg" alt="image" class="img-responsive">
+          <h3>自动化测试工程师&emsp;<b style="color: #FFA500">7-12k</b></h3>
+          <p class="tm-date">成都 · 1-3年 · 本科</p>
           <div class="tm-home-box-2-container">
-            <a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
-            <a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description">Travel</span></a>
-            <a href="#" class="tm-home-box-2-link"><i class="fa fa-edit tm-home-box-2-icon border-left"></i></a>
+            <a href="#" class="tm-home-box-2-link">&emsp;<img src="img/icon-company.png"><b class="fa tm-home-box-2-icon border-right">好未来</b></a>
+            <a href="#" class="tm-home-box-2-link">&emsp;<img src="img/icon-gopublic.png"><span class="tm-home-box-2-description">已上市</span></a>
+            <br>
+            <a href="#" class="tm-home-box-2-link">&emsp;<img src="img/icon-person.png"><b class="fa tm-home-box-2-icon border-left">10000人以上</b></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+        <div class="tm-home-box-2 tm-home-box-2-right">
+          <img src="img/index-09.jpg" alt="image" class="img-responsive">
+          <h3>2022-测试开发实习生<b style="color: #FFA500">200-250元/天</b></h3>
+          <p class="tm-date">北京 · 5天/周 · 三个月 · 本科</p>
+          <div class="tm-home-box-2-container">
+            <a href="#" class="tm-home-box-2-link">&emsp;<img src="img/icon-company.png"><b class="fa tm-home-box-2-icon border-right">猫眼娱乐</b></a>
+            <a href="#" class="tm-home-box-2-link">&emsp;<img src="img/icon-gopublic.png"><span class="tm-home-box-2-description">已上市</span></a>
+            <br>
+            <a href="#" class="tm-home-box-2-link">&emsp;<img src="img/icon-person.png"><b class="fa tm-home-box-2-icon border-left">1000-9999人</b></a>
           </div>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-12">
-        <p class="home-description">Holiday is free Bootstrap v3.3.5 responsive template for tour and travel websites. You can download and use this layout for any purpose. You do not need to provide a credit link to us. If you have any question, feel free to <a href="http://www.facebook.com/templatemo" target="_parent">contact us</a>. Credit goes to <a rel="nofollow" href="http://unsplash.com" target="_parent">Unspash</a> for images used in this template.</p>
+        <p class="home-description">Career is a learning path recommendation website based on your personal fussing recognition map. If you have any question, feel free to <a href="http://www.facebook.com/templatemo" target="_parent">contact us</a>.
+          Credit goes to <a rel="nofollow" href="#" target="_parent">Mooc</a> <a href="#">NewCode</a> <a href="#">Boss Recruiting</a> for images used in this template.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- white bg -->
-<section class="tm-white-bg section-padding-bottom">
-  <div class="container">
-    <div class="row">
-      <div class="tm-section-header section-margin-top">
-        <div class="col-lg-4 col-md-3 col-sm-3"><hr></div>
-        <div class="col-lg-4 col-md-6 col-sm-6"><h2 class="tm-section-title">Popular Packages</h2></div>
-        <div class="col-lg-4 col-md-3 col-sm-3"><hr></div>
-      </div>
-      <div class="col-lg-6">
-        <div class="tm-home-box-3">
-          <div class="tm-home-box-3-img-container">
-            <img src="img/index-07.jpg" alt="image" class="img-responsive">
-          </div>
-          <div class="tm-home-box-3-info">
-            <p class="tm-home-box-3-description">Proin gravida nibhvell velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
-            <div class="tm-home-box-2-container">
-              <a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
-              <a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description box-3">Travel</span></a>
-              <a href="#" class="tm-home-box-2-link"><i class="fa fa-edit tm-home-box-2-icon border-left"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="tm-home-box-3">
-          <div class="tm-home-box-3-img-container">
-            <img src="img/index-08.jpg" alt="image" class="img-responsive">
-          </div>
-          <div class="tm-home-box-3-info">
-            <p class="tm-home-box-3-description">Proin gravida nibhvell velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
-            <div class="tm-home-box-2-container">
-              <a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
-              <a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description box-3">Travel</span></a>
-              <a href="#" class="tm-home-box-2-link"><i class="fa fa-edit tm-home-box-2-icon border-left"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="tm-home-box-3">
-          <div class="tm-home-box-3-img-container">
-            <img src="img/index-09.jpg" alt="image" class="img-responsive">
-          </div>
-          <div class="tm-home-box-3-info">
-            <p class="tm-home-box-3-description">Proin gravida nibhvell velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
-            <div class="tm-home-box-2-container">
-              <a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
-              <a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description box-3">Travel</span></a>
-              <a href="#" class="tm-home-box-2-link"><i class="fa fa-edit tm-home-box-2-icon border-left"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="tm-home-box-3">
-          <div class="tm-home-box-3-img-container">
-            <img src="img/index-10.jpg" alt="image" class="img-responsive">
-          </div>
-          <div class="tm-home-box-3-info">
-            <p class="tm-home-box-3-description">Proin gravida nibhvell velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
-            <div class="tm-home-box-2-container">
-              <a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
-              <a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description box-3">Travel</span></a>
-              <a href="#" class="tm-home-box-2-link"><i class="fa fa-edit tm-home-box-2-icon border-left"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 <footer class="tm-black-bg">
   <div class="container">
     <div class="row">
-      <p class="tm-copyright-text">Copyright &copy; 2022 摘星科技</p>
+      <p class="tm-copyright-text">Copyright &copy; 2022 摘星科技 &emsp; Email: <a href="#">careermap@163.com</a></p>
     </div>
   </div>
 </footer>
