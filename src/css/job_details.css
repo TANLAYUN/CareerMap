@@ -40,7 +40,7 @@
 .callback{
   position: absolute;
   right:70px;
-  top:175px;
+  top:290px;
   color:#999999;
 }
 .call1{
@@ -80,7 +80,7 @@
   position:absolute;
   left:-60px;
   top:250px;
-  width:700px;
+  width:850px;
   line-height: 30px;
   white-space: pre-line;
   margin: 20px 30px;
@@ -89,15 +89,19 @@
   border-radius: 12px;
   background: #fff;
 }
-.part2>.bigdata{
+.big_label{
+  display: flex;
+}
+.big_label>.bigdata{
   color:#999999;
   background-color: #f8f8f8;
   padding:2px 5px;
-  width:50px;
-  margin:8px 0;
+  /*width:auto;*/
+  margin:8px 5px 0px;
   font-size: 15px;
   text-align: center;
   border-radius: 8px;
+  float:left;
 }
 .part3{
   position:absolute;
@@ -117,10 +121,11 @@
 .part4{
   position:absolute;
   right:30px;
-  top:270px;
+  top:380px;
   margin-bottom: 32px;
   min-height: 400px;
   z-index: 901;
+  width:400px;
 }
 .part4_1{
   box-shadow: 0 8px 16px 0 rgb(7 17 27 / 10%);
@@ -189,24 +194,23 @@
   color:white;
   text-align: center;
 }
-hr{
-  width:100%;
-  color:#dddddd;
-  margin:40px 0;
+.job_hr{
+  border-top: 1px solid #dddddd;
+  margin-top: 40px;
 }
 .part4_2_1{
   box-shadow: 0 8px 16px 0 rgb(7 17 27 / 10%);
   border-radius: 12px;
-  padding: 24px 32px 32px;
+  padding: 20px 32px 32px;
   width:400px;
   background: #fff;
   margin:20px 0px;
-  height:50px;
+  height:90px;
 }
 .ev_item{
   text-align: center;
   float:left;
-  margin:0 34px;
+  margin:0 25px;
 }
 .ev_item1{
   color:#32CA99;
@@ -223,7 +227,6 @@ hr{
 .job_details{
   border-bottom:1px solid #dddddd;
   height:60px;
-  padding:10px 0;
 }
 .job_details_1{
   float:left;
