@@ -4,25 +4,24 @@
   background: #f8fafc;
 }
 .maogo_image{
-  width: 100%;
+  /*width: 100%;*/
   height:250px;
-  background-image: url(../img/MongoDB_1.jpg);
   box-shadow: 0 8px 16px 0 rgb(7 17 27 / 10%);
+  margin:0 30px;
+  padding:0 30px;
 }
 .course_title{
   margin:0px 0px 40px 0px;
+  color:#999999;
+  font-size: 25px;
 }
 .path{
   padding-top: 16px;
   padding-bottom: 24px;
   line-height: 24px;
   font-size: 14px;
-  color: rgba(255,255,255,.5);
+  color: #78c002;
   opacity: 1
-}
-.course_title{
-  color:white;
-  font-size: 32px;
 }
 .part23{
   position:relative;
@@ -33,36 +32,54 @@
   margin:0px;
 }
 .engineer{
-  color:white;
+  color:#999999;
   font-size: 14px;
   position: relative;
   height:100px;
 }
+.callback{
+  position: absolute;
+  right:70px;
+  top:175px;
+  color:#999999;
+}
+.call1{
+  float:left;
+  border-right: #3c763d 2px solid;
+  margin-right:15px;
+  padding-right:15px;
+}
+.call2{
+  float:left;
+}
 .teacher{
   position: absolute;
   display: inline-block;
-  left:8%;
-  top: 10%;
+  left:100px;
+  top: 30%;
   transform: translate(-50%, -50%);
   font-size:16px;
+  width:200px;
 }
 .evaluation{
   position: absolute;
   display: inline-block;
-  left: 40%;
-  top: 10%;
+  left: 500px;
   transform: translate(-50%, -50%);
-  margin-top: 16px;
+  margin-top: 25px;
+  width:200px;
 }
 .evaluation_item{
-  padding-right: 8px;
   line-height: 12px;
   font-size: 14px;
   font-weight: 700;
+  color:#EA4E07;
+  padding:5px 8px 5px 5px;
 }
 .part2{
   position:absolute;
-  left:0;
+  left:-60px;
+  top:250px;
   width:700px;
   line-height: 30px;
   white-space: pre-line;
@@ -71,6 +88,16 @@
   box-shadow: 0 8px 16px 0 rgb(7 17 27 / 10%);
   border-radius: 12px;
   background: #fff;
+}
+.part2>.bigdata{
+  color:#999999;
+  background-color: #f8f8f8;
+  padding:2px 5px;
+  width:50px;
+  margin:8px 0;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 8px;
 }
 .part3{
   position:absolute;
@@ -89,8 +116,8 @@
 }
 .part4{
   position:absolute;
-  right:10px;
-  top:100px;
+  right:30px;
+  top:270px;
   margin-bottom: 32px;
   min-height: 400px;
   z-index: 901;
@@ -101,6 +128,38 @@
   padding: 24px 32px 32px;
   width:400px;
   background: #fff;
+  text-align: center;
+}
+.com_name{
+  font-size:20px;
+  color:#333333;
+  margin-top:15px;
+}
+.com_card{
+  font-size: 14px;
+  color:#C3C3C6;
+  margin:10px 0;
+}
+.card_item1{
+  margin:0px 5px;
+  padding:0px 5px;
+  border-right:1px solid #C3C3C6;
+}
+.card_item2{
+  margin-right:5px ;
+  padding-right: 5px;
+  border-right:1px solid #C3C3C6;
+}
+.job_more{
+  padding: 11px 32px;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 14px;
+  background-color:  #78c002;
+  border-color:  #78c002;
+  margin:70px 0px 0px 70px;
+  width:200px;
+  color:whitesmoke;
 }
 .part4_2{
   box-shadow: 0 8px 16px 0 rgb(7 17 27 / 10%);
@@ -108,9 +167,105 @@
   padding: 24px 32px 32px;
   width:400px;
   background: #fff;
+  margin:10px 0px;
+}
+.part4_2_job{
+  border-radius: 12px 12px 0 0;
+}
+.part4_2_job1{
+  border-radius: 0;
+}
+.part4_2_job2{
+  border-radius: 0 0 12px 12px;
+}
+.job_more_sim{
+  padding: 11px 32px;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 14px;
+  background-color:  #32ca99;
+  margin:30px 0px 0px 70px;
+  width:200px;
+  color:white;
+  text-align: center;
+}
+hr{
+  width:100%;
+  color:#dddddd;
+  margin:40px 0;
+}
+.part4_2_1{
+  box-shadow: 0 8px 16px 0 rgb(7 17 27 / 10%);
+  border-radius: 12px;
+  padding: 24px 32px 32px;
+  width:400px;
+  background: #fff;
   margin:20px 0px;
+  height:50px;
+}
+.ev_item{
+  text-align: center;
+  float:left;
+  margin:0 34px;
+}
+.ev_item1{
+  color:#32CA99;
+  margin:5px;
+}
+.ev_item2{
+  color:#333333;
+}
+.recommend{
+  font-size:24px;
+  margin-bottom: 15px;
+  font-weight: bolder;
+}
+.job_details{
+  border-bottom:1px solid #dddddd;
+  height:60px;
+  padding:10px 0;
+}
+.job_details_1{
+  float:left;
+  color:#32CA99;
+}
+.job_details_2{
+  float:right;
+  color: #ea4e07;
+}
+.job_details_3{
+  color:#999999;
+  margin:10px 0px;
+}
+.job_details_31{
+  float:left;
+  border-right: #3c763d 2px solid;
+  margin-right:15px;
+  padding-right:15px;
+}
+.job_details_32{
+  float:left;
+}
+.job_com{
+  height:30px;
+  margin:15px 0 5px;
+}
+.job_com1{
+  float:left;
+  margin:12px;
+}
+.job_com2{
+  float:right;
+  margin:12px;
+}
+
+
+
+.hr{
+  float:left;
 }
 .learning_button{
+  float:right;
   padding: 11px 32px;
   font-size: 16px;
   line-height: 24px;
@@ -118,6 +273,8 @@
   background-color:  #78c002;
   border-color:  #78c002;
   text-align: center;
+  width:150px;
+  margin-top:70px;
 }
 .first_title{
   font: 18px/1.5 "PingFang SC","微软雅黑","Microsoft YaHei",Helvetica,"Helvetica Neue",Tahoma,Arial,sans-serif;
@@ -138,6 +295,7 @@
 .course_detail{
   display: inline;
   width:80px;
+  color:#333333;
 }
 .course_detail>.course_name{
   text-overflow:ellipsis;
@@ -149,14 +307,14 @@
   font-size: 14px;
   line-height: 22px;
   cursor: pointer;
-  color: #545C63;
+  color:#333333;
   margin:0px 30px 0px 10px;
 }
 .course_detail>.course_intro{
   position: absolute;
   height:auto;
   font-size: 12px;
-  color: #545C63;
+  color:#333333;
   line-height: 18px;
   margin:45px 8px;
   font-weight:bold;
