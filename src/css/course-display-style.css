@@ -1,0 +1,188 @@
+/* demo page styles */
+body {
+    background: #fffdfd;
+    margin:0;
+    padding:0;
+}
+.nav-bar {
+    position:relative;
+    /*background: rgba(222, 217, 217, 0.55);*/
+    width:80%;
+    height:auto;
+    /*border:1px #000 solid;*/
+    margin:20px auto;
+    padding:15px;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+
+/* main menu styles */
+.menuholder {
+    float:left;
+    font:normal 11px/35px verdana, sans-serif;
+    overflow:hidden;
+    position:relative;
+    width: 100%;
+    height: auto;
+}
+.menuholder .shadow {
+    -moz-box-shadow:0 0 20px rgba(0, 0, 0, 1);
+    -o-box-shadow:0 0 20px rgba(0, 0, 0, 1);
+    -webkit-box-shadow:0 0 20px rgba(0, 0, 0, 1);
+    background:#888;
+    box-shadow:0 0 20px rgba(0, 0, 0, 1);
+    height:10px;
+    left:5%;
+    position:absolute;
+    top:-9px;
+    width:90%;
+    z-index:100;
+}
+
+.menuholder:hover {
+    height:300px;
+}
+ul.menu {
+    display:block;
+    float:left;
+    list-style:none;
+    margin:0;
+    /*padding:0 125px;*/
+    position:relative;
+}
+ul.menu li {
+    /*float:left;*/
+    text-align: center;
+    margin:0 5px 0 0;
+}
+ul.menu li > a {
+    -moz-border-radius:0 0 6px 6px;
+    -moz-box-shadow:2px 2px 4px rgba(0, 0, 0, 0.9);
+    -moz-transition:all 0.2s ease-in-out;
+    -o-border-radius:0 0 6px 6px;
+    -o-box-shadow:2px 2px 4px rgba(0, 0, 0, 0.9);
+    -o-transition:all 0.2s ease-in-out;
+    -webkit-border-bottom-left-radius:6px;
+    -webkit-border-bottom-right-radius:6px;
+    -webkit-box-shadow:2px 2px 4px rgba(0, 0, 0, 0.9);
+    -webkit-transition:all 0.2s ease-in-out;
+    border-radius:0 0 10px 10px;
+    box-shadow:2px 2px 4px rgba(0, 0, 0, 0.9);
+    color:black;
+    display:block;
+    padding:0 10px;
+    text-decoration:none;
+    transition:all 0.2s ease-in-out;
+}
+ul.menu li a {
+    background: rgba(120, 192, 2, 0.85);
+}
+ul.menu div.subs table a{
+    background: none;
+    color: black;
+    text-decoration: none;
+}
+.menu li div.subs {
+    overflow:hidden;
+    position:absolute;
+    top: -5px;
+    left:95%;
+    -moz-transition-duration:.2s;
+    -o-transition-duration:.2s;
+    -webkit-transition-duration:.2s;
+    float:left;
+    padding: 0px 30px;
+    width: auto;
+    height: 0;
+}
+.subs:hover{
+    display: block;
+    overflow: visible;
+}
+/*.menu li div.subs dl {*/
+/*  -moz-transition-duration:.2s;*/
+/*  -o-transition-duration:.2s;*/
+/*  -webkit-transition-duration:.2s;*/
+/*  float:left;*/
+/*  !*margin:0 130px 0 0;*!*/
+/*  overflow:hidden;*/
+/*  padding:40px 0 5% 2%;*/
+/*  width: auto;*/
+/*  height: 50px;*/
+/*}*/
+
+/*.menu dt {*/
+/*    color:#fc0;*/
+/*    font-family:arial, sans-serif;*/
+/*    font-size:12px;*/
+/*    font-weight:700;*/
+/*    height:20px;*/
+/*    line-height:20px;*/
+/*    margin:0;*/
+/*    padding:0 0 0 10px;*/
+/*    white-space:nowrap;*/
+/*}*/
+/*.menu dd {*/
+/*    margin:0;*/
+/*    padding:0;*/
+/*    text-align:left;*/
+/*}*/
+/*.menu dd a {*/
+/*    background:transparent;*/
+/*    color:#fff;*/
+/*    font-size:12px;*/
+/*    height:20px;*/
+/*    line-height:20px;*/
+/*    padding:0 0 0 10px;*/
+/*    text-align:left;*/
+/*    white-space:nowrap;*/
+/*    width:80px;*/
+/*}*/
+
+ul.menu li:hover > a, ul.menu li > a:hover {
+    font-weight: bold;
+    line-height: 45px;
+    -moz-transition-delay:0.1s;
+    -o-transition-delay:0.1s;
+    -webkit-transition-delay:0.1s;
+    margin-right:2%;
+    width:100%;
+    color: white;
+}
+
+ul.menu li:hover > div, ul.menu li > div:hover{
+    /*padding:10px 10px 0;*/
+    -moz-transition-delay:0.2s;
+    -o-transition-delay:0.2s;
+    -webkit-transition-delay:0.2s;
+    margin-right:2%;
+    min-height: 500px;
+    width: 700px;
+
+}
+.menu li:hover div.subs,.menu li a:hover div.subs {
+    width:auto;
+}
+
+table th, table td{
+    padding: 3px 5px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    line-height: 45px;
+}
+
+ul.menu div.subs table th a:hover {
+    color: #78c002;
+    -moz-transition-delay:0.1s;
+    -o-transition-delay:0.1s;
+    -webkit-transition-delay:0.1s;
+}
+table td:hover {
+    font-weight: bold;
+    background: rgba(128, 128, 128, 0.15);
+    border-radius:0 0 3px 3px;
+    -moz-transition-delay:0.1s;
+    -o-transition-delay:0.1s;
+    -webkit-transition-delay:0.1s;
+}
