@@ -6,15 +6,15 @@ body {
 }
 .nav-bar {
     position:relative;
-    /*background: rgba(222, 217, 217, 0.55);*/
-    width:90%;
+    background: url("../img/banner-3.jpg");
+    width:100%;
     height:auto;
     /*border:1px #000 solid;*/
-    margin:20px auto;
-    padding:15px;
+    padding:35px auto;
     border-radius:3px;
     -moz-border-radius:3px;
     -webkit-border-radius:3px;
+    text-align: center;
 }
 
 /* main menu styles */
@@ -23,8 +23,9 @@ body {
     font:normal 11px/35px verdana, sans-serif;
     overflow:hidden;
     position:relative;
-    width: 100%;
+    width: 80%;
     height: auto;
+    margin: 0 10%;
 }
 .menuholder .shadow {
     -moz-box-shadow:0 0 20px rgba(0, 0, 0, 1);
@@ -80,7 +81,7 @@ ul.menu li a {
 }
 ul.menu div.subs table a{
     background: none;
-    color: black;
+    color: floralwhite;
     text-decoration: none;
 }
 .menu li div.subs {
@@ -103,7 +104,7 @@ ul.menu div.subs table a{
 
 ul.menu li:hover > a, ul.menu li > a:hover {
     font-weight: bold;
-    line-height: 45px;
+    line-height: 50px;
     -moz-transition-delay:0.1s;
     -o-transition-delay:0.1s;
     -webkit-transition-delay:0.1s;
@@ -134,6 +135,7 @@ table th, table td{
 }
 
 ul.menu div.subs table th a:hover {
+    font-size: 13px;
     color: #78c002;
     -moz-transition-delay:0.1s;
     -o-transition-delay:0.1s;
@@ -150,20 +152,20 @@ table td:hover {
 .h2-title{
     font-size: 20px;
     text-align: left;
-    margin: 20px 6% 60px;
+    margin: 20px 11% 60px;
     display: block;
 }
 .col-lg-4{
-    margin: 20px 20px;
-    width: 15%;
+    margin: 20px 0px;
+    width: 20%;
 }
 #more{
-  width: 93%;
+  width: 80%;
 }
 .tm-home-box-1{
   width: 200px;
   height: 160px;
-  box-shadow: 8px 10px 3px dimgrey
+  box-shadow: 5px 5px 5px dimgrey
 }
 .tm-green-gradient-bg, .tm-yellow-gradient-bg{
   height: 10%;
@@ -173,6 +175,28 @@ table td:hover {
   font-size: 12px;
 }
 
-.teacher{
-  padding-left: 15%;
+.level1{
+  font-size: 12px;
+  /*line-height: 45px;*/
 }
+ul.menu div.course-subs table th a{
+  padding-right: 10px;
+  border-right: 1px solid whitesmoke;
+  color: #78c002;
+  font-size: 14px;
+}
+ul.menu div.course-subs table td a{
+  font-size: 14px;
+}
+ul.menu div.course-subs table th a:hover {
+  font-size: 15px;
+  color: white;
+  -moz-transition-delay:0.1s;
+  -o-transition-delay:0.1s;
+  -webkit-transition-delay:0.1s;
+}
+.section-margin-top{
+    margin-top: 20px;
+}
+
+
