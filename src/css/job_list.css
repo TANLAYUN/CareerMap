@@ -1,8 +1,30 @@
-.topk1{
-  height:100px;
-  background-color: black;
+.engineer_text {
+  text-align: center;
+  font-size: 16px;
+  color: #333333;
+  padding: 10px 0;
+  box-shadow: 0 8px 16px 0 rgb(7 17 27 / 20%);
 }
-.topk2{
-  height:100px;
-  background-color: black;
+.topk{
+  background-color: #78c002;
+}
+.top_text{
+  border-bottom: whitesmoke 2px solid;
+  /*background-color: #FFA500;*/
+  background-color: #FFA500;
+  padding:15px;
+  text-align: left;
+  font-weight: bolder;
+  font-size:18px;
+}
+.topk_ul{
+  list-style-type: none;
+}
+.topk_ul>li{
+  border: 1px solid whitesmoke;
+  padding:10px 15px;
+  font-size: 16px;
+}
+.col-lg-2{
+  padding:0px;
 }
